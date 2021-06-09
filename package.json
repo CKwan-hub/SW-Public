@@ -4,7 +4,8 @@
   "description": "coding project",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "build": "webpack -p --mode=production --devtool false src/index.jsx --output dist/app.js --env.stage -d"
   },
   "repository": {
     "type": "git",
