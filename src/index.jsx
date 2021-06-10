@@ -1,6 +1,6 @@
 import m from 'mithril';
 import { Home } from './resources/home';
-import './style/404-flicker.css';
+import { Sandbox } from './resources/sandbox';
 
 (async () => {
   let root = document.querySelector('#app');
@@ -8,5 +8,6 @@ import './style/404-flicker.css';
   m.route.prefix = '';
   m.route(root, '/', {
     '/': Home,
+    '/debug': Sandbox,
   });
 })();

@@ -1,0 +1,41 @@
+/* body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0;
+  background: #1f0505;
+  color: #fff;
+  font-size: 1.5em;
+  letter-spacing: 0px;
+  overflow: hidden;
+} */
+
+:root {
+  --c1: #0f0c0cfd;
+  --c2: #1f0303;
+  --c3: #241402;
+  --c4: #021a18;
+  --c5: #000000;
+}
+
+@font-face {
+  font-family: 'albert';
+  src: url('./font/Albertsthal\ Typewriter.ttf');
+}
+
+body {
+  background-color: var(--c5);
+  transition: background-color 3s linear;
+}
+
+.font {
+  font-family: 'albert' !important;
+}
