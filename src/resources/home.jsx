@@ -8,7 +8,7 @@ export const Home = () => {
   return {
     view: (vnode) => {
       return (
-        <div class='glitch' id='animated' title='Loading'>
+        <div class='glitch large' id='animated' title='Loading'>
           Loading...
         </div>
       );

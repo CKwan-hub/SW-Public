@@ -18,8 +18,11 @@ body {
 
 .glitch {
   font-family: 'Fira Mono', monospace;
-  /* font-size: 96px; */
   /* letter-spacing: -7px; */
+}
+
+.large {
+  font-size: 6vw;
 }
 
 div #animated {
